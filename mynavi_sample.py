@@ -69,9 +69,11 @@ def main():
     for name in name_list:
         print(name.text)
         # DataFrameに対して辞書形式でデータを追加する
-        df.append({"会社名": name.text, 
-                   "項目B": "",
-                   "項目C": ""}, ignore_index=True)
+        df = df.append(
+            {"会社名": name.text, 
+             "項目B": "",
+             "項目C": ""}, 
+            ignore_index=True)
         
         
 
