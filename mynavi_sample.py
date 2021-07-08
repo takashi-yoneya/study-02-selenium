@@ -43,7 +43,7 @@ def main():
     elif os.name == 'posix': #Mac
         driver = set_driver("chromedriver", False)
     # Webサイトを開く
-    driver.get("https://7net.omni7.jp/top")
+    driver.get("https://tenshoku.mynavi.jp/")
     time.sleep(5)
     # ポップアップを閉じる
     driver.execute_script('document.querySelector(".karte-close").click()')
