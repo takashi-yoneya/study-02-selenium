@@ -58,7 +58,3 @@ URLのうち、検索ワードを制御している部分を見つけて、直�
 検索結果を表示させてみましょう。
 参考：https://webtan.impress.co.jp/e/2012/04/26/12663
 
-## オプション２ 難易度★★★★☆
-初年度年収の情報を各求人からXPATHを指定して取得して出力してください。
-contains と following-sibling を使用すると１回で指定できます。
-参考：https://qiita.com/rllllho/items/cb1187cec0fb17fc650a
